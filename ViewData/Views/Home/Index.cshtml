@@ -1,0 +1,45 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mx-auto text-center">
+    @{
+        var name = "Lokesh Datta Ojha";
+
+    }
+    @if (@name == "Lokesh Datta Ojha")
+    {
+       <h1>Your Name is Correct</h1>
+    }
+
+    @for (int i =0; i<5;i++)
+    {
+        <br />
+        <h1>This is for forloop @(i+1)</h1>
+    }
+    @{
+        int j = 0;
+        do
+        {
+            <br />
+            <h1>This is for Whileloop @(j + 1)</h1>
+            j++;
+        } while (j < 5);
+    }
+
+    <h1>@name</h1>
+    <h1>Welcome</h1>
+    <h3>Name is @Model.Name</h3>
+    <h2>Age is @Model.Age</h2>
+    <h4>@ViewBag.Message</h4>
+    <p>@ViewData["Messages"]</p>
+    <p>@TempData["Messagess"]</p>
+
+    <a asp-action="RedirectToAnotherAction">Redirect to Error Page</a><br />
+    <a asp-action="GetJsonData">Get Json Data</a><br />
+    <a asp-action="DownloadFile">Download File</a><br />
+    <a asp-action="PlainText">Plain Text</a><br />
+    <a asp-action="ShowPartial">Partial View</a><br />
+    @Html.Partial("_TestPartial")
+</div>
