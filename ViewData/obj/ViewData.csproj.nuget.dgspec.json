@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\ViewData\\ViewData.csproj": {}
+    "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\Dotnet_Resources\\ViewData\\ViewData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\ViewData\\ViewData.csproj": {
+    "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\Dotnet_Resources\\ViewData\\ViewData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\ViewData\\ViewData.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\Dotnet_Resources\\ViewData\\ViewData.csproj",
         "projectName": "ViewData",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\ViewData\\ViewData.csproj",
+        "projectPath": "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\Dotnet_Resources\\ViewData\\ViewData.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\ViewData\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Desktop\\Sixth Sem\\dotnet\\Dotnet_Resources\\ViewData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
